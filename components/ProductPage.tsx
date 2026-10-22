@@ -62,9 +62,14 @@ function ConceptBanner() {
       <span>
         <b>Concept page</b> by Jerome R. Not affiliated with Proudchapter. No orders or photos are taken here.
       </span>
-      <button onClick={toggle} className="concept__btn">
-        {on ? "Hide notes" : "See what I changed"}
-      </button>
+      <span className="concept__actions">
+        <button onClick={toggle} className="concept__btn">
+          {on ? "Hide notes" : "See what I changed"}
+        </button>
+        <a href="/hello" className="concept__link">
+          Read my application
+        </a>
+      </span>
     </div>
   );
 }

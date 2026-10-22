@@ -4,6 +4,8 @@ An unsolicited product page concept for Proudchapter's **Christmas Eve Mouse**, 
 
 Open the page and press **"What I changed and why"** (bottom left) to see each change marked where it sits.
 
+My written application notes are at `/hello`, linked from the banner as "Read my application".
+
 ## What changed
 
 1. **Christmas order-by date and arrival window.** Calculated from today: last safe order day is Tuesday, Dec 15 (7 business days to Thursday, Dec 24).

@@ -50,6 +50,21 @@ p { margin: 0 0 1em; }
   padding: 4px 12px; font-weight: 600; cursor: pointer; font-size: .8rem;
 }
 
+.concept__actions { display: inline-flex; gap: 12px; align-items: center; flex-wrap: wrap; justify-content: center; }
+.concept__link { color: #f1f2ec; font-weight: 600; font-size: .8rem; text-decoration: underline; text-underline-offset: 3px; }
+
+/* hello page */
+.hello { background: var(--bg); min-height: 100vh; padding: 32px 16px 72px; }
+.hello__in { max-width: 680px; margin: 0 auto; line-height: 1.6; color: var(--ink); }
+.hello__in > * { min-width: 0; overflow-wrap: anywhere; }
+.hello h1 { font-family: var(--font-heading, "Lora", serif); font-size: 2rem; line-height: 1.2; margin: 24px 0 4px; }
+.hello h2 { font-family: var(--font-heading, "Lora", serif); font-size: 1.3rem; margin: 32px 0 6px; color: var(--green-d); }
+.hello__by { color: var(--muted); margin: 0 0 20px; }
+.hello__back { font-size: .85rem; color: var(--green-d); text-decoration: underline; text-underline-offset: 3px; }
+.hello ol { padding-left: 1.3rem; display: grid; gap: 10px; }
+.hello__foot { margin-top: 36px; padding-top: 16px; border-top: 1px solid var(--line); font-size: .85rem; color: var(--ink-2); }
+.hello a { color: var(--green-d); }
+
 /* header */
 .header {
   position: sticky; top: 0; z-index: 30; background: rgba(248, 248, 244, .96);
